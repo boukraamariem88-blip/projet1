@@ -12,7 +12,7 @@ body {
     color:#040a42;
     line-height: 1.6;
 }
-#nav {
+nav {
     background-color: #040a42;
     padding: 15px;
     display: flex;
@@ -23,13 +23,13 @@ body {
     top: 0;
 }
 
-#nav a {
+nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-#nav a:hover {
+nav a:hover {
     color: #00bfff;
 }
 
