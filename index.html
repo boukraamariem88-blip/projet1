@@ -3,31 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>projet1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form method="get">
-
-    <a href="home">home</a>
-    <a href="#about">about </a>
-    <a href="#work">work</a>
-    <a href="#resume">resume</a>
-    <a href="#contact">contact</a>
-
-    <h1 id="about"> about</h1>
-    
-    <p>Bonjour et bienvenue,
-Je suis Mariem Boukraa, étudiante en première année d'ingénierie informatique à ESPRIT. Passionnée par la robotique et l'informatique, je conçois des solutions innovantes alliant technologie, créativité et efficacité.
-
-À travers ce portfolio, je vous invite à découvrir mes réalisations, mes projets académiques et personnels, ainsi que mon univers professionnel. Chaque projet reflète mon intérêt pour l'innovation et mon désir de relever de nouveaux défis technologiques.
-</p>
-<audio src="audio1.mp3" controls ></audio>
-<br>
-<h2 id="work"> work</h2>
+    <nav id="nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">about me </a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#resume">resume</a></li>
+        <li><a href="#contact">contact</a></li>
 
 
 
-<table border="5">
+    </nav>
+    <main>
+        <section id="Home">
+            <h1>Home</h1>
+            <p>bienvenue dans mon portfolio</p>
+        </section>
+        <section id="about">
+            <h1>about me</h1>
+            <p>>Bonjour et bienvenue,Je suis Mariem Boukraa, étudiante en première année d'ingénierie informatique à ESPRIT. Passionnée par la robotique et l'informatique, je conçois des solutions innovantes alliant technologie, créativité et efficacité.À travers ce portfolio, je vous invite à découvrir mes réalisations, mes projets académiques et personnels, ainsi que mon univers professionnel. Chaque projet reflète mon intérêt pour l'innovation et mon désir de relever de nouveaux défis technologiques.</p>
+            <audio src="audio1.mp3" controls ></audio>
+        </section>
+        <section id="work">
+            <h1>work</h1>
+            <table border="5">
     <thead>
         <tr>
             <td> projet/module</td>
@@ -58,8 +60,10 @@ Je suis Mariem Boukraa, étudiante en première année d'ingénierie informatiqu
 <p>exemple :</p>
 
 <video src="video.mp4" controls ></video>
-    <h3 id="resume"> resume</h3>
-    <p>compétences :</p>
+        </section>
+    <section id="resume">
+        <h1>Resume</h1>
+            <p>compétences :</p>
     <ul type="circle">
         <li>HTML & CSS </li>
         <li>Robotique</li>
@@ -72,25 +76,37 @@ Je suis Mariem Boukraa, étudiante en première année d'ingénierie informatiqu
         <li>Réalisation d'un robot utilisant Arduino pour automatiser des tâches simples.</li>
         <li>Découverte du développement informatique et participation à des tâches techniques.</li>
         <li>Conception et développement d'un site web portfolio en HTML </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>conatct me</h1>
+        <form>
+          <label for="name">first name:</label><br />
+          <input type="name" required="" minlength="3" maxlength="20" /><br />
+          <label for="last name">last name:</label><br />
+          <input type="last name" required="" /><br />
+          <label for="e-mail">e-mail</label><br />
+          <input type="email" name="e-mail" id="" required="" /><br />
+         
+          <label for="message">message</label><br />
+          <textarea
+            name="message"
+            id=""
+            rows="12"
+            cols="100"
+            required=""
+          ></textarea
+          ><br />
+          <label for="save me">save me</label><br />
+          <input type="checkbox" name="save me" id="" /><br />
+          <input type="submit" value="send" /><br />
+        </form>
+
         
 
-    </ul>
-    <h4 id="contact "> contact </h4>
-   <form method="post">
-      <label for="name">first name</label>
-      <br />
-      <input type="text" name="test" id="name" minlength="3" maxlength="20" required />
-      <br />
-      <label for="last">last name</label>
-      <br />
-      <input type="text" name="test" id="last" minlength="3" maxlength="20" required />
-      <br />
-      <label for="email">email</label>
-      <br />
-      <input type="text" name="test" id="email" required />
-      </form>
 
-</form>
-
+    </main>
+    <footer>2025-2026</footer>
+    
 </body>
 </html>

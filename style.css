@@ -1,0 +1,131 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color:#040a42;
+    line-height: 1.6;
+}
+#nav {
+    background-color: #040a42;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    position: sticky;
+    top: 0;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: #00bfff;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 25px auto;
+    width: 85%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Titres */
+h1 {
+    color: #0056b3;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* Paragraphes */
+p {
+    margin: 10px 0;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td,
+table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+thead {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+audio,
+video {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 700px;
+}
+ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    margin-top: 15px;
+}
+label {
+    font-weight: bold;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+input[type="submit"]:hover {
+    background-color: #003f82;
+}
+
+footer {
+    text-align: center;
+    background-color: #040a42;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

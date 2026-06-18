@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#resume">resume</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home">
+        <h1>Home</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim
+          neque veritatis aperiam voluptas rerum, vitae fugiat ullam esse autem
+          incidunt ex tempore nulla! Reiciendis neque dignissimos labore
+          laboriosam distinctio.
+        </p>
+      </section>
+      <section id="about">
+        <h1>About me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim
+          neque veritatis aperiam voluptas rerum, vitae fugiat ullam esse autem
+          incidunt ex tempore nulla! Reiciendis neque dignissimos labore
+          laboriosam distinctio. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Eum enim neque veritatis aperiam voluptas rerum,
+          vitae fugiat ullam esse autem incidunt ex tempore nulla! Reiciendis
+          neque dignissimos labore laboriosam distinctio.
+        </p>
+      </section>
+
+      <section id="work">
+        <h1>work</h1>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>titre</th>
+              <th>desc</th>
+              <th>date</th>
+              <th>link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>projet1</td>
+              <td>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum provident incidunt iste illo alias quasi libero
+                nihil? Cumque expedita dolores ea nulla, voluptates provident
+                aliquid aspernatur animi, et eaque sunt.
+              </td>
+              <td>12/05/20225</td>
+              <td>
+                <a href="#">repo github</a>
+              </td>
+            </tr>
+            <tr>
+              <td>projet1</td>
+              <td>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum provident incidunt iste illo alias quasi libero
+                nihil? Cumque expedita dolores ea nulla, voluptates provident
+                aliquid aspernatur animi, et eaque sunt.
+              </td>
+              <td>12/05/20225</td>
+              <td>
+                <a href="#">repo github</a>
+              </td>
+            </tr>
+            <tr>
+              <td>projet1</td>
+              <td>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum provident incidunt iste illo alias quasi libero
+                nihil? Cumque expedita dolores ea nulla, voluptates provident
+                aliquid aspernatur animi, et eaque sunt.
+              </td>
+              <td>12/05/20225</td>
+              <td>
+                <a href="#">repo github</a>
+              </td>
+            </tr>
+            <tr>
+              <td>projet1</td>
+              <td>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum provident incidunt iste illo alias quasi libero
+                nihil? Cumque expedita dolores ea nulla, voluptates provident
+                aliquid aspernatur animi, et eaque sunt.
+              </td>
+              <td>12/05/20225</td>
+              <td>
+                <a href="#">repo github</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="resume">
+        <h1>Resume</h1>
+        <h2>Skill</h2>
+        <ul>
+          <li>html</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>git</li>
+          <li>github</li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+          <li>html</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h1>conatct me</h1>
+        <form>
+          <label for="name">first name:</label><br />
+          <input type="name" required="" minlength="3" maxlength="20" /><br />
+          <label for="last name">last name:</label><br />
+          <input type="last name" required="" /><br />
+          <label for="e-mail">e-mail</label><br />
+          <input type="email" name="e-mail" id="" required="" /><br />
+          <label for="subject">subject</label><br />
+          <select name="subject" id="" required="">
+            <br />
+            <option value="bougua">boguaa</option>
+            <option value="bougua cidre">boguaa cidre</option>
+            <option value="fanta">fanta</option>
+            <option value="coca">coca</option>
+          </select>
+          <label for="message">message</label><br />
+          <textarea
+            name="message"
+            id=""
+            rows="12"
+            cols="100"
+            required=""
+          ></textarea
+          ><br />
+          <label for="save me">save me</label><br />
+          <input type="checkbox" name="save me" id="" /><br />
+          <input type="submit" value="send" /><br />
+        </form>
+      </section>
+    </main>
+
+    <a href="#nav">go to top</a>
+
+    <footer>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corporis
+      placeat commodi incidunt. Ea iure qui impedit laudantium modi earum
+      molestias. Voluptatum, excepturi explicabo porro obcaecati dignissimos
+      neque magnam earum.
+    </footer>
+  </body>
+</html>
